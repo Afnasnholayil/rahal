@@ -21,5 +21,5 @@ print(map3['mark']);
   print(map3.containsValue(65));
   var list1=[1,2,3,4];
   var list2={'qwe','rty','uio','asd'};
-  
+
 }
