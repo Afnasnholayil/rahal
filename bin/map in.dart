@@ -21,5 +21,11 @@ print(map3['mark']);
   print(map3.containsValue(65));
   var list1=[1,2,3,4];
   var list2={'qwe','rty','uio','asd'};
-
+Map map4=Map.fromIterables(list2, list1);
+print(map4);
+Map map5={}..addAll(map3)..addAll(map4);
+  print(map5);
+  //or we can do as next line also
+  Map map6={...map3,...map4};
+  print(map6);
 }
